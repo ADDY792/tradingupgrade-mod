@@ -1,0 +1,95 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "top": "tradingupgrade:block/conversion_table_top",
+    "side": "tradingupgrade:block/conversion_table_side",
+    "bottom": "tradingupgrade:block/conversion_table_bottom",
+    "leg": "tradingupgrade:block/conversion_table_leg",
+    "particle": "tradingupgrade:block/conversion_table_top"
+  },
+  "elements": [
+    {
+      "name": "tabletop",
+      "from": [0, 12, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 4], "texture": "#side" },
+        "east":  { "uv": [0, 0, 16, 4], "texture": "#side" },
+        "south": { "uv": [0, 0, 16, 4], "texture": "#side" },
+        "west":  { "uv": [0, 0, 16, 4], "texture": "#side" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#top" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#bottom" }
+      }
+    },
+    {
+      "name": "leg_nw",
+      "from": [1, 0, 1],
+      "to": [3, 12, 3],
+      "faces": {
+        "north": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "east":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "south": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "west":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "down":  { "uv": [0, 0, 2, 2], "texture": "#leg" }
+      }
+    },
+    {
+      "name": "leg_ne",
+      "from": [13, 0, 1],
+      "to": [15, 12, 3],
+      "faces": {
+        "north": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "east":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "south": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "west":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "down":  { "uv": [0, 0, 2, 2], "texture": "#leg" }
+      }
+    },
+    {
+      "name": "leg_sw",
+      "from": [1, 0, 13],
+      "to": [3, 12, 15],
+      "faces": {
+        "north": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "east":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "south": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "west":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "down":  { "uv": [0, 0, 2, 2], "texture": "#leg" }
+      }
+    },
+    {
+      "name": "leg_se",
+      "from": [13, 0, 13],
+      "to": [15, 12, 15],
+      "faces": {
+        "north": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "east":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "south": { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "west":  { "uv": [0, 4, 2, 16], "texture": "#leg" },
+        "down":  { "uv": [0, 0, 2, 2], "texture": "#leg" }
+      }
+    },
+    {
+      "name": "crossbar_n",
+      "from": [3, 4, 2],
+      "to": [13, 5, 3],
+      "faces": {
+        "north": { "uv": [3, 11, 13, 12], "texture": "#leg" },
+        "south": { "uv": [3, 11, 13, 12], "texture": "#leg" },
+        "up":    { "uv": [3, 2, 13, 3], "texture": "#leg" },
+        "down":  { "uv": [3, 2, 13, 3], "texture": "#leg" }
+      }
+    },
+    {
+      "name": "crossbar_s",
+      "from": [3, 4, 13],
+      "to": [13, 5, 14],
+      "faces": {
+        "north": { "uv": [3, 11, 13, 12], "texture": "#leg" },
+        "south": { "uv": [3, 11, 13, 12], "texture": "#leg" },
+        "up":    { "uv": [3, 13, 13, 14], "texture": "#leg" },
+        "down":  { "uv": [3, 13, 13, 14], "texture": "#leg" }
+      }
+    }
+  ]
+}

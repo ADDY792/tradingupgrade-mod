@@ -1,0 +1,82 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "front": "tradingupgrade:block/atm_front",
+    "side": "tradingupgrade:block/atm_side",
+    "back": "tradingupgrade:block/atm_back",
+    "top": "tradingupgrade:block/atm_top",
+    "screen": "tradingupgrade:block/atm_screen",
+    "particle": "tradingupgrade:block/atm_front"
+  },
+  "elements": [
+    {
+      "name": "body",
+      "from": [2, 0, 2],
+      "to": [14, 14, 14],
+      "faces": {
+        "north": { "uv": [2, 2, 14, 16], "texture": "#front" },
+        "east":  { "uv": [2, 2, 14, 16], "texture": "#side" },
+        "south": { "uv": [2, 2, 14, 16], "texture": "#back" },
+        "west":  { "uv": [2, 2, 14, 16], "texture": "#side" },
+        "up":    { "uv": [2, 2, 14, 14], "texture": "#top" },
+        "down":  { "uv": [2, 2, 14, 14], "texture": "#side" }
+      }
+    },
+    {
+      "name": "screen_panel",
+      "from": [3, 8, 1.9],
+      "to": [13, 13, 2],
+      "faces": {
+        "north": { "uv": [3, 3, 13, 8], "texture": "#screen" }
+      }
+    },
+    {
+      "name": "top_extension",
+      "from": [2, 14, 2],
+      "to": [14, 16, 14],
+      "faces": {
+        "north": { "uv": [2, 0, 14, 2], "texture": "#front" },
+        "east":  { "uv": [2, 0, 14, 2], "texture": "#side" },
+        "south": { "uv": [2, 0, 14, 2], "texture": "#back" },
+        "west":  { "uv": [2, 0, 14, 2], "texture": "#side" },
+        "up":    { "uv": [2, 2, 14, 14], "texture": "#top" }
+      }
+    },
+    {
+      "name": "card_slot",
+      "from": [5, 5, 1.5],
+      "to": [8, 6, 2],
+      "faces": {
+        "north": { "uv": [5, 10, 8, 11], "texture": "#front" },
+        "east":  { "uv": [0, 0, 1, 1], "texture": "#front" },
+        "west":  { "uv": [0, 0, 1, 1], "texture": "#front" },
+        "up":    { "uv": [5, 0, 8, 1], "texture": "#front" },
+        "down":  { "uv": [5, 0, 8, 1], "texture": "#front" }
+      }
+    },
+    {
+      "name": "keypad",
+      "from": [9, 4, 1.5],
+      "to": [12, 7, 2],
+      "faces": {
+        "north": { "uv": [9, 9, 12, 12], "texture": "#front" },
+        "east":  { "uv": [0, 0, 1, 3], "texture": "#front" },
+        "west":  { "uv": [0, 0, 1, 3], "texture": "#front" },
+        "up":    { "uv": [9, 0, 12, 1], "texture": "#front" },
+        "down":  { "uv": [9, 0, 12, 1], "texture": "#front" }
+      }
+    },
+    {
+      "name": "cash_slot",
+      "from": [4, 2, 1.5],
+      "to": [12, 3, 2],
+      "faces": {
+        "north": { "uv": [4, 13, 12, 14], "texture": "#front" },
+        "east":  { "uv": [0, 0, 1, 1], "texture": "#front" },
+        "west":  { "uv": [0, 0, 1, 1], "texture": "#front" },
+        "up":    { "uv": [4, 0, 12, 1], "texture": "#front" },
+        "down":  { "uv": [4, 0, 12, 1], "texture": "#front" }
+      }
+    }
+  ]
+}

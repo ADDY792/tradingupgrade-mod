@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:paper" },
+    { "item": "tradingupgrade:dollar" }
+  ],
+  "result": {
+    "id": "tradingupgrade:dollar",
+    "count": 1
+  }
+}

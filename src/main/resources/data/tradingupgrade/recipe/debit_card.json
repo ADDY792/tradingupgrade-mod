@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GPG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "tradingupgrade:debit_card",
+    "count": 1
+  }
+}
